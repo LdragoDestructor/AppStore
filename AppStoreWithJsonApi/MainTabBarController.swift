@@ -18,7 +18,10 @@ class MainTabBarController:UITabBarController{
           createTabBarController(viewController: TodayController(), imageNmae: "today_icon", title: "Today"),createTabBarController(viewController: AppsViewController(), imageNmae: "apps", title: "Apps"),createTabBarController(viewController: SearchBarController(), imageNmae:"search",title: "Search"),]
         }
     
+    
     fileprivate func createTabBarController(viewController:UIViewController,imageNmae: String,title:String) -> UIViewController {
+        
+        print("ok")
         
         let navViewController = UINavigationController(rootViewController: viewController)
         viewController.navigationItem.title = title
