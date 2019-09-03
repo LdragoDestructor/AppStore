@@ -3,25 +3,109 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		555C1EA9E0D7F57CA4F4C01C /* Pods_AppStoreWithJsonApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF7487D67BD2E43808182DC /* Pods_AppStoreWithJsonApi.framework */; };
 		FFBEAB6C231ED16700FF3CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB6B231ED16700FF3CB9 /* AppDelegate.swift */; };
-		FFBEAB6E231ED16700FF3CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB6D231ED16700FF3CB9 /* ViewController.swift */; };
-		FFBEAB71231ED16700FF3CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBEAB6F231ED16700FF3CB9 /* Main.storyboard */; };
 		FFBEAB73231ED16800FF3CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBEAB72231ED16800FF3CB9 /* Assets.xcassets */; };
-		FFBEAB76231ED16800FF3CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBEAB74231ED16800FF3CB9 /* LaunchScreen.storyboard */; };
+		FFBEAB91231ED5C600FF3CB9 /* TodayPresentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB8C231ED5C600FF3CB9 /* TodayPresentController.swift */; };
+		FFBEAB92231ED5C600FF3CB9 /* TodayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB8D231ED5C600FF3CB9 /* TodayTableViewController.swift */; };
+		FFBEAB93231ED5C600FF3CB9 /* BackEnableNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB8E231ED5C600FF3CB9 /* BackEnableNavigationController.swift */; };
+		FFBEAB94231ED5C600FF3CB9 /* TodayMulController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB8F231ED5C600FF3CB9 /* TodayMulController.swift */; };
+		FFBEAB95231ED5C600FF3CB9 /* TodayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB90231ED5C600FF3CB9 /* TodayController.swift */; };
+		FFBEAB97231ED6D400FF3CB9 /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB96231ED6D400FF3CB9 /* SearchBarController.swift */; };
+		FFBEAB99231ED6F100FF3CB9 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB98231ED6F100FF3CB9 /* MusicController.swift */; };
+		FFBEAB9D231ED71100FF3CB9 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB9A231ED71100FF3CB9 /* AppsViewController.swift */; };
+		FFBEAB9E231ED71100FF3CB9 /* HorizontalMultipleAppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB9B231ED71100FF3CB9 /* HorizontalMultipleAppsController.swift */; };
+		FFBEAB9F231ED71100FF3CB9 /* AppsHeaderCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEAB9C231ED71100FF3CB9 /* AppsHeaderCellController.swift */; };
+		FFBEABA4231ED74F00FF3CB9 /* AppsPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABA1231ED74F00FF3CB9 /* AppsPreviewController.swift */; };
+		FFBEABA5231ED74F00FF3CB9 /* AppReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABA2231ED74F00FF3CB9 /* AppReviewController.swift */; };
+		FFBEABA6231ED74F00FF3CB9 /* AppDeatilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABA3231ED74F00FF3CB9 /* AppDeatilController.swift */; };
+		FFBEABAB231ED7BA00FF3CB9 /* SearchControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABAA231ED7BA00FF3CB9 /* SearchControllerCell.swift */; };
+		FFBEABAE231ED7DA00FF3CB9 /* MusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABAC231ED7DA00FF3CB9 /* MusicCell.swift */; };
+		FFBEABAF231ED7DA00FF3CB9 /* MusicFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABAD231ED7DA00FF3CB9 /* MusicFooterCell.swift */; };
+		FFBEABB4231ED7FD00FF3CB9 /* AppsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABB0231ED7FD00FF3CB9 /* AppsHeaderCell.swift */; };
+		FFBEABB5231ED7FD00FF3CB9 /* AppsHeaderControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABB1231ED7FD00FF3CB9 /* AppsHeaderControllerCell.swift */; };
+		FFBEABB6231ED7FD00FF3CB9 /* HorizontalMultipleAppsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABB2231ED7FD00FF3CB9 /* HorizontalMultipleAppsCell.swift */; };
+		FFBEABB7231ED7FD00FF3CB9 /* AppsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABB3231ED7FD00FF3CB9 /* AppsViewCell.swift */; };
+		FFBEABC0231ED84400FF3CB9 /* tableHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBA231ED84400FF3CB9 /* tableHeaderCell.swift */; };
+		FFBEABC1231ED84400FF3CB9 /* TodayMulControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBB231ED84400FF3CB9 /* TodayMulControllerCell.swift */; };
+		FFBEABC2231ED84400FF3CB9 /* BaseTodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBC231ED84400FF3CB9 /* BaseTodayCell.swift */; };
+		FFBEABC3231ED84400FF3CB9 /* TodayDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBD231ED84400FF3CB9 /* TodayDescriptionCell.swift */; };
+		FFBEABC4231ED84400FF3CB9 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBE231ED84400FF3CB9 /* TodayCell.swift */; };
+		FFBEABC5231ED84400FF3CB9 /* TodayMulCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABBF231ED84400FF3CB9 /* TodayMulCell.swift */; };
+		FFBEABCA231ED86A00FF3CB9 /* AppReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABC6231ED86A00FF3CB9 /* AppReviewCell.swift */; };
+		FFBEABCB231ED86A00FF3CB9 /* AppPreviewScreenShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABC7231ED86A00FF3CB9 /* AppPreviewScreenShotCell.swift */; };
+		FFBEABCC231ED86A00FF3CB9 /* AppReviewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABC8231ED86A00FF3CB9 /* AppReviewControllerCell.swift */; };
+		FFBEABCD231ED86A00FF3CB9 /* AppDeatilHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABC9231ED86A00FF3CB9 /* AppDeatilHeaderCell.swift */; };
+		FFBEABD1231ED88400FF3CB9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABCE231ED88300FF3CB9 /* Extension.swift */; };
+		FFBEABD2231ED88400FF3CB9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABCF231ED88300FF3CB9 /* UIView+Layout.swift */; };
+		FFBEABD3231ED88400FF3CB9 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD0231ED88300FF3CB9 /* BaseTabBarController.swift */; };
+		FFBEABDA231ED8AD00FF3CB9 /* AppHeaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD4231ED8AD00FF3CB9 /* AppHeaderResult.swift */; };
+		FFBEABDB231ED8AD00FF3CB9 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD5231ED8AD00FF3CB9 /* SearchResult.swift */; };
+		FFBEABDC231ED8AD00FF3CB9 /* AppResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD6231ED8AD00FF3CB9 /* AppResult.swift */; };
+		FFBEABDD231ED8AD00FF3CB9 /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD7231ED8AD00FF3CB9 /* ReviewModel.swift */; };
+		FFBEABDE231ED8AD00FF3CB9 /* TodayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD8231ED8AD00FF3CB9 /* TodayModel.swift */; };
+		FFBEABDF231ED8AD00FF3CB9 /* BetterSnappingBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABD9231ED8AD00FF3CB9 /* BetterSnappingBehaviour.swift */; };
+		FFBEABE1231ED8D500FF3CB9 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABE0231ED8D500FF3CB9 /* Internet.swift */; };
+		FFBEABE5231ED90800FF3CB9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABE2231ED90800FF3CB9 /* MainTabBarController.swift */; };
+		FFBEABE6231ED90800FF3CB9 /* HorizonatlSnappingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABE3231ED90800FF3CB9 /* HorizonatlSnappingController.swift */; };
+		FFBEABE7231ED90800FF3CB9 /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBEABE4231ED90800FF3CB9 /* VerticalStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601BD7DDA0FEC8D2F67D2BF3 /* Pods-AppStoreWithJsonApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreWithJsonApi.debug.xcconfig"; path = "Target Support Files/Pods-AppStoreWithJsonApi/Pods-AppStoreWithJsonApi.debug.xcconfig"; sourceTree = "<group>"; };
+		BFB722BDC5129CB03FC6D5AA /* Pods-AppStoreWithJsonApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStoreWithJsonApi.release.xcconfig"; path = "Target Support Files/Pods-AppStoreWithJsonApi/Pods-AppStoreWithJsonApi.release.xcconfig"; sourceTree = "<group>"; };
+		DBF7487D67BD2E43808182DC /* Pods_AppStoreWithJsonApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStoreWithJsonApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBEAB68231ED16700FF3CB9 /* AppStoreWithJsonApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreWithJsonApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBEAB6B231ED16700FF3CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFBEAB6D231ED16700FF3CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFBEAB70231ED16700FF3CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFBEAB72231ED16800FF3CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FFBEAB75231ED16800FF3CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFBEAB77231ED16800FF3CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBEAB8C231ED5C600FF3CB9 /* TodayPresentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayPresentController.swift; sourceTree = "<group>"; };
+		FFBEAB8D231ED5C600FF3CB9 /* TodayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayTableViewController.swift; sourceTree = "<group>"; };
+		FFBEAB8E231ED5C600FF3CB9 /* BackEnableNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackEnableNavigationController.swift; sourceTree = "<group>"; };
+		FFBEAB8F231ED5C600FF3CB9 /* TodayMulController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayMulController.swift; sourceTree = "<group>"; };
+		FFBEAB90231ED5C600FF3CB9 /* TodayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayController.swift; sourceTree = "<group>"; };
+		FFBEAB96231ED6D400FF3CB9 /* SearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
+		FFBEAB98231ED6F100FF3CB9 /* MusicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		FFBEAB9A231ED71100FF3CB9 /* AppsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		FFBEAB9B231ED71100FF3CB9 /* HorizontalMultipleAppsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMultipleAppsController.swift; sourceTree = "<group>"; };
+		FFBEAB9C231ED71100FF3CB9 /* AppsHeaderCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsHeaderCellController.swift; sourceTree = "<group>"; };
+		FFBEABA1231ED74F00FF3CB9 /* AppsPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsPreviewController.swift; sourceTree = "<group>"; };
+		FFBEABA2231ED74F00FF3CB9 /* AppReviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReviewController.swift; sourceTree = "<group>"; };
+		FFBEABA3231ED74F00FF3CB9 /* AppDeatilController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDeatilController.swift; sourceTree = "<group>"; };
+		FFBEABAA231ED7BA00FF3CB9 /* SearchControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchControllerCell.swift; sourceTree = "<group>"; };
+		FFBEABAC231ED7DA00FF3CB9 /* MusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicCell.swift; sourceTree = "<group>"; };
+		FFBEABAD231ED7DA00FF3CB9 /* MusicFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicFooterCell.swift; sourceTree = "<group>"; };
+		FFBEABB0231ED7FD00FF3CB9 /* AppsHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsHeaderCell.swift; sourceTree = "<group>"; };
+		FFBEABB1231ED7FD00FF3CB9 /* AppsHeaderControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsHeaderControllerCell.swift; sourceTree = "<group>"; };
+		FFBEABB2231ED7FD00FF3CB9 /* HorizontalMultipleAppsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMultipleAppsCell.swift; sourceTree = "<group>"; };
+		FFBEABB3231ED7FD00FF3CB9 /* AppsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsViewCell.swift; sourceTree = "<group>"; };
+		FFBEABBA231ED84400FF3CB9 /* tableHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableHeaderCell.swift; sourceTree = "<group>"; };
+		FFBEABBB231ED84400FF3CB9 /* TodayMulControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayMulControllerCell.swift; sourceTree = "<group>"; };
+		FFBEABBC231ED84400FF3CB9 /* BaseTodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTodayCell.swift; sourceTree = "<group>"; };
+		FFBEABBD231ED84400FF3CB9 /* TodayDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayDescriptionCell.swift; sourceTree = "<group>"; };
+		FFBEABBE231ED84400FF3CB9 /* TodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = "<group>"; };
+		FFBEABBF231ED84400FF3CB9 /* TodayMulCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayMulCell.swift; sourceTree = "<group>"; };
+		FFBEABC6231ED86A00FF3CB9 /* AppReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReviewCell.swift; sourceTree = "<group>"; };
+		FFBEABC7231ED86A00FF3CB9 /* AppPreviewScreenShotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPreviewScreenShotCell.swift; sourceTree = "<group>"; };
+		FFBEABC8231ED86A00FF3CB9 /* AppReviewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReviewControllerCell.swift; sourceTree = "<group>"; };
+		FFBEABC9231ED86A00FF3CB9 /* AppDeatilHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDeatilHeaderCell.swift; sourceTree = "<group>"; };
+		FFBEABCE231ED88300FF3CB9 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		FFBEABCF231ED88300FF3CB9 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		FFBEABD0231ED88300FF3CB9 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		FFBEABD4231ED8AD00FF3CB9 /* AppHeaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHeaderResult.swift; sourceTree = "<group>"; };
+		FFBEABD5231ED8AD00FF3CB9 /* SearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		FFBEABD6231ED8AD00FF3CB9 /* AppResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppResult.swift; sourceTree = "<group>"; };
+		FFBEABD7231ED8AD00FF3CB9 /* ReviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		FFBEABD8231ED8AD00FF3CB9 /* TodayModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayModel.swift; sourceTree = "<group>"; };
+		FFBEABD9231ED8AD00FF3CB9 /* BetterSnappingBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterSnappingBehaviour.swift; sourceTree = "<group>"; };
+		FFBEABE0231ED8D500FF3CB9 /* Internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		FFBEABE2231ED90800FF3CB9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FFBEABE3231ED90800FF3CB9 /* HorizonatlSnappingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizonatlSnappingController.swift; sourceTree = "<group>"; };
+		FFBEABE4231ED90800FF3CB9 /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +113,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555C1EA9E0D7F57CA4F4C01C /* Pods_AppStoreWithJsonApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22A64B861CE9CD22F6F5CFF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				601BD7DDA0FEC8D2F67D2BF3 /* Pods-AppStoreWithJsonApi.debug.xcconfig */,
+				BFB722BDC5129CB03FC6D5AA /* Pods-AppStoreWithJsonApi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2FF4E8C1DB0A2095FF13F447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7487D67BD2E43808182DC /* Pods_AppStoreWithJsonApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFBEAB5F231ED16700FF3CB9 = {
 			isa = PBXGroup;
 			children = (
 				FFBEAB6A231ED16700FF3CB9 /* AppStoreWithJsonApi */,
 				FFBEAB69231ED16700FF3CB9 /* Products */,
+				22A64B861CE9CD22F6F5CFF4 /* Pods */,
+				2FF4E8C1DB0A2095FF13F447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +158,174 @@
 		FFBEAB6A231ED16700FF3CB9 /* AppStoreWithJsonApi */ = {
 			isa = PBXGroup;
 			children = (
+				FFBEABE3231ED90800FF3CB9 /* HorizonatlSnappingController.swift */,
+				FFBEABE2231ED90800FF3CB9 /* MainTabBarController.swift */,
+				FFBEABE4231ED90800FF3CB9 /* VerticalStackView.swift */,
+				FFBEAB83231ED4C300FF3CB9 /* Controller */,
+				FFBEAB82231ED4B000FF3CB9 /* View */,
+				FFBEAB81231ED4A200FF3CB9 /* Helper */,
+				FFBEAB80231ED49B00FF3CB9 /* Model */,
+				FFBEAB7F231ED48C00FF3CB9 /* Service */,
 				FFBEAB6B231ED16700FF3CB9 /* AppDelegate.swift */,
-				FFBEAB6D231ED16700FF3CB9 /* ViewController.swift */,
-				FFBEAB6F231ED16700FF3CB9 /* Main.storyboard */,
 				FFBEAB72231ED16800FF3CB9 /* Assets.xcassets */,
-				FFBEAB74231ED16800FF3CB9 /* LaunchScreen.storyboard */,
 				FFBEAB77231ED16800FF3CB9 /* Info.plist */,
 			);
 			path = AppStoreWithJsonApi;
+			sourceTree = "<group>";
+		};
+		FFBEAB7F231ED48C00FF3CB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABE0231ED8D500FF3CB9 /* Internet.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FFBEAB80231ED49B00FF3CB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABD4231ED8AD00FF3CB9 /* AppHeaderResult.swift */,
+				FFBEABD6231ED8AD00FF3CB9 /* AppResult.swift */,
+				FFBEABD9231ED8AD00FF3CB9 /* BetterSnappingBehaviour.swift */,
+				FFBEABD7231ED8AD00FF3CB9 /* ReviewModel.swift */,
+				FFBEABD5231ED8AD00FF3CB9 /* SearchResult.swift */,
+				FFBEABD8231ED8AD00FF3CB9 /* TodayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFBEAB81231ED4A200FF3CB9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABD0231ED88300FF3CB9 /* BaseTabBarController.swift */,
+				FFBEABCE231ED88300FF3CB9 /* Extension.swift */,
+				FFBEABCF231ED88300FF3CB9 /* UIView+Layout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FFBEAB82231ED4B000FF3CB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABA9231ED79700FF3CB9 /* Search */,
+				FFBEABA8231ED79200FF3CB9 /* Music */,
+				FFBEABA7231ED78700FF3CB9 /* App */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFBEAB83231ED4C300FF3CB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEAB87231ED52400FF3CB9 /* Today */,
+				FFBEAB86231ED51A00FF3CB9 /* Search */,
+				FFBEAB85231ED51100FF3CB9 /* Music */,
+				FFBEAB84231ED50800FF3CB9 /* App */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFBEAB84231ED50800FF3CB9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABA0231ED71500FF3CB9 /* DetailController */,
+				FFBEAB9C231ED71100FF3CB9 /* AppsHeaderCellController.swift */,
+				FFBEAB9A231ED71100FF3CB9 /* AppsViewController.swift */,
+				FFBEAB9B231ED71100FF3CB9 /* HorizontalMultipleAppsController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FFBEAB85231ED51100FF3CB9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEAB98231ED6F100FF3CB9 /* MusicController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		FFBEAB86231ED51A00FF3CB9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEAB96231ED6D400FF3CB9 /* SearchBarController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FFBEAB87231ED52400FF3CB9 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEAB8E231ED5C600FF3CB9 /* BackEnableNavigationController.swift */,
+				FFBEAB90231ED5C600FF3CB9 /* TodayController.swift */,
+				FFBEAB8F231ED5C600FF3CB9 /* TodayMulController.swift */,
+				FFBEAB8C231ED5C600FF3CB9 /* TodayPresentController.swift */,
+				FFBEAB8D231ED5C600FF3CB9 /* TodayTableViewController.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		FFBEABA0231ED71500FF3CB9 /* DetailController */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABA3231ED74F00FF3CB9 /* AppDeatilController.swift */,
+				FFBEABA2231ED74F00FF3CB9 /* AppReviewController.swift */,
+				FFBEABA1231ED74F00FF3CB9 /* AppsPreviewController.swift */,
+			);
+			path = DetailController;
+			sourceTree = "<group>";
+		};
+		FFBEABA7231ED78700FF3CB9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABB9231ED81300FF3CB9 /* Today */,
+				FFBEABB8231ED80100FF3CB9 /* AppDetailCell */,
+				FFBEABB0231ED7FD00FF3CB9 /* AppsHeaderCell.swift */,
+				FFBEABB1231ED7FD00FF3CB9 /* AppsHeaderControllerCell.swift */,
+				FFBEABB3231ED7FD00FF3CB9 /* AppsViewCell.swift */,
+				FFBEABB2231ED7FD00FF3CB9 /* HorizontalMultipleAppsCell.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FFBEABA8231ED79200FF3CB9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABAC231ED7DA00FF3CB9 /* MusicCell.swift */,
+				FFBEABAD231ED7DA00FF3CB9 /* MusicFooterCell.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		FFBEABA9231ED79700FF3CB9 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABAA231ED7BA00FF3CB9 /* SearchControllerCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FFBEABB8231ED80100FF3CB9 /* AppDetailCell */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABC9231ED86A00FF3CB9 /* AppDeatilHeaderCell.swift */,
+				FFBEABC7231ED86A00FF3CB9 /* AppPreviewScreenShotCell.swift */,
+				FFBEABC6231ED86A00FF3CB9 /* AppReviewCell.swift */,
+				FFBEABC8231ED86A00FF3CB9 /* AppReviewControllerCell.swift */,
+			);
+			path = AppDetailCell;
+			sourceTree = "<group>";
+		};
+		FFBEABB9231ED81300FF3CB9 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				FFBEABBC231ED84400FF3CB9 /* BaseTodayCell.swift */,
+				FFBEABBA231ED84400FF3CB9 /* tableHeaderCell.swift */,
+				FFBEABBE231ED84400FF3CB9 /* TodayCell.swift */,
+				FFBEABBD231ED84400FF3CB9 /* TodayDescriptionCell.swift */,
+				FFBEABBF231ED84400FF3CB9 /* TodayMulCell.swift */,
+				FFBEABBB231ED84400FF3CB9 /* TodayMulControllerCell.swift */,
+			);
+			path = Today;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFBEAB7A231ED16800FF3CB9 /* Build configuration list for PBXNativeTarget "AppStoreWithJsonApi" */;
 			buildPhases = (
+				73030EDF0243341A7723EF32 /* [CP] Check Pods Manifest.lock */,
 				FFBEAB64231ED16700FF3CB9 /* Sources */,
 				FFBEAB65231ED16700FF3CB9 /* Frameworks */,
 				FFBEAB66231ED16700FF3CB9 /* Resources */,
+				4A45E74F5931A668EF32F7C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,44 +388,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBEAB76231ED16800FF3CB9 /* LaunchScreen.storyboard in Resources */,
 				FFBEAB73231ED16800FF3CB9 /* Assets.xcassets in Resources */,
-				FFBEAB71231ED16700FF3CB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A45E74F5931A668EF32F7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStoreWithJsonApi/Pods-AppStoreWithJsonApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppStoreWithJsonApi/Pods-AppStoreWithJsonApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppStoreWithJsonApi/Pods-AppStoreWithJsonApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73030EDF0243341A7723EF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppStoreWithJsonApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFBEAB64231ED16700FF3CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBEAB6E231ED16700FF3CB9 /* ViewController.swift in Sources */,
+				FFBEABDC231ED8AD00FF3CB9 /* AppResult.swift in Sources */,
+				FFBEABE7231ED90800FF3CB9 /* VerticalStackView.swift in Sources */,
+				FFBEABA6231ED74F00FF3CB9 /* AppDeatilController.swift in Sources */,
+				FFBEABC2231ED84400FF3CB9 /* BaseTodayCell.swift in Sources */,
+				FFBEAB94231ED5C600FF3CB9 /* TodayMulController.swift in Sources */,
+				FFBEAB91231ED5C600FF3CB9 /* TodayPresentController.swift in Sources */,
+				FFBEABC3231ED84400FF3CB9 /* TodayDescriptionCell.swift in Sources */,
+				FFBEABDB231ED8AD00FF3CB9 /* SearchResult.swift in Sources */,
+				FFBEAB9E231ED71100FF3CB9 /* HorizontalMultipleAppsController.swift in Sources */,
+				FFBEABE6231ED90800FF3CB9 /* HorizonatlSnappingController.swift in Sources */,
+				FFBEABCC231ED86A00FF3CB9 /* AppReviewControllerCell.swift in Sources */,
+				FFBEABD3231ED88400FF3CB9 /* BaseTabBarController.swift in Sources */,
+				FFBEABA5231ED74F00FF3CB9 /* AppReviewController.swift in Sources */,
+				FFBEABA4231ED74F00FF3CB9 /* AppsPreviewController.swift in Sources */,
+				FFBEABC0231ED84400FF3CB9 /* tableHeaderCell.swift in Sources */,
+				FFBEABDE231ED8AD00FF3CB9 /* TodayModel.swift in Sources */,
+				FFBEAB99231ED6F100FF3CB9 /* MusicController.swift in Sources */,
+				FFBEABDF231ED8AD00FF3CB9 /* BetterSnappingBehaviour.swift in Sources */,
+				FFBEAB95231ED5C600FF3CB9 /* TodayController.swift in Sources */,
+				FFBEAB97231ED6D400FF3CB9 /* SearchBarController.swift in Sources */,
+				FFBEAB9F231ED71100FF3CB9 /* AppsHeaderCellController.swift in Sources */,
+				FFBEABB6231ED7FD00FF3CB9 /* HorizontalMultipleAppsCell.swift in Sources */,
+				FFBEABD1231ED88400FF3CB9 /* Extension.swift in Sources */,
+				FFBEABDA231ED8AD00FF3CB9 /* AppHeaderResult.swift in Sources */,
+				FFBEABB5231ED7FD00FF3CB9 /* AppsHeaderControllerCell.swift in Sources */,
+				FFBEABB7231ED7FD00FF3CB9 /* AppsViewCell.swift in Sources */,
+				FFBEABE1231ED8D500FF3CB9 /* Internet.swift in Sources */,
+				FFBEABCD231ED86A00FF3CB9 /* AppDeatilHeaderCell.swift in Sources */,
+				FFBEABC5231ED84400FF3CB9 /* TodayMulCell.swift in Sources */,
+				FFBEABAE231ED7DA00FF3CB9 /* MusicCell.swift in Sources */,
+				FFBEAB92231ED5C600FF3CB9 /* TodayTableViewController.swift in Sources */,
+				FFBEABD2231ED88400FF3CB9 /* UIView+Layout.swift in Sources */,
+				FFBEABAF231ED7DA00FF3CB9 /* MusicFooterCell.swift in Sources */,
+				FFBEAB9D231ED71100FF3CB9 /* AppsViewController.swift in Sources */,
+				FFBEABDD231ED8AD00FF3CB9 /* ReviewModel.swift in Sources */,
+				FFBEABC4231ED84400FF3CB9 /* TodayCell.swift in Sources */,
+				FFBEABC1231ED84400FF3CB9 /* TodayMulControllerCell.swift in Sources */,
+				FFBEABCA231ED86A00FF3CB9 /* AppReviewCell.swift in Sources */,
+				FFBEABB4231ED7FD00FF3CB9 /* AppsHeaderCell.swift in Sources */,
 				FFBEAB6C231ED16700FF3CB9 /* AppDelegate.swift in Sources */,
+				FFBEABE5231ED90800FF3CB9 /* MainTabBarController.swift in Sources */,
+				FFBEAB93231ED5C600FF3CB9 /* BackEnableNavigationController.swift in Sources */,
+				FFBEABCB231ED86A00FF3CB9 /* AppPreviewScreenShotCell.swift in Sources */,
+				FFBEABAB231ED7BA00FF3CB9 /* SearchControllerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FFBEAB6F231ED16700FF3CB9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFBEAB70231ED16700FF3CB9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FFBEAB74231ED16800FF3CB9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FFBEAB75231ED16800FF3CB9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FFBEAB78231ED16800FF3CB9 /* Debug */ = {
@@ -280,6 +609,7 @@
 		};
 		FFBEAB7B231ED16800FF3CB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601BD7DDA0FEC8D2F67D2BF3 /* Pods-AppStoreWithJsonApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +628,7 @@
 		};
 		FFBEAB7C231ED16800FF3CB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB722BDC5129CB03FC6D5AA /* Pods-AppStoreWithJsonApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
